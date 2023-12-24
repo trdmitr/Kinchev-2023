@@ -47,7 +47,7 @@
     min-width: auto;
     min-height: auto;
     padding: 1.5rem;
-    height: 72%;
+    height: 53%;
     width: auto;
   }
   
@@ -67,7 +67,7 @@
   .headerSong {
     text-align: right;
     font-size: 1.5rem;
-    clip-path: polygon(-27% 41%, 100% -47%, 100% 79%, 0% 151%);
+    clip-path: polygon(13.37% 10.82%,50.56% 0.00%,72.41% 5.48%,97.76% 0.88%,91.94% 41.55%,96.97% 66.64%,86.31% 94.51%,50.00% 100.00%,17.86% 100.00%,2.35% 77.37%,0.98% 37.80%);
     padding: 0.2rem 1.3rem;
     color: whitesmoke;
     background-color: var(--headerSing);
