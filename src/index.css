@@ -1,7 +1,7 @@
 @font-face {
   
   font-family: 'JakobCTT';
-	src:  url('./fonts/jakobctt_8b806cbf869f1c45daf1949a025cd519.woff') format('woff');
+	src:  url('./fonts/Peter_Ivanovitsch.ttf') format('ttf');
 	font-weight: 400;
 	font-style: normal;
 }
@@ -23,11 +23,13 @@ code {
 :root {
   --boxShadow: 8px -8px 18px 8px rgba(167, 171, 173, 0.43);
   --buttonShadow: -8px 15px 43px 20px rgba(132, 138, 51, 0.61) inset;
-  --buttonBack: #bfd11c8e;
+  --buttonBack: #1ca3d18e;
   --buttonColor: #e2e3e4;
-  --colorText: rgb(51, 31, 7);
+  --colorText: rgb(231, 226, 220);
   --textShadow: -1px -1.6px 0px whitesmoke inset;
   --colorBackgroundAll: #a0d7d7bd;
+  --colorNameSongs: #c75e48;
+  --headerSing: #cc910f;
   
-  --clipPath: polygon(0 16%, 13% 13%, 26% 0, 72% 0, 82% 15%, 100% 25%, 100% 77%, 85% 89%, 78% 100%, 23% 100%, 14% 89%, 0 79%);
+  --clipPath: polygon(15.62% 4.19%,52.91% 5.59%,86.44% 1.84%,81.46% 28.02%,100.00% 46.37%,69.93% 87.45%,20% 100%,15.49% 74.35%,0% 55%);
 }

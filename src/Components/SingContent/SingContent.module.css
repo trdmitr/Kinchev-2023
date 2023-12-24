@@ -70,7 +70,7 @@
     clip-path: polygon(-27% 41%, 100% -47%, 100% 79%, 0% 151%);
     padding: 0.2rem 1.3rem;
     color: whitesmoke;
-    background-color: #0f1ccc;
+    background-color: var(--headerSing);
     border-radius: 0.5rem;
     /* border: 2px solid var(--titleSongColor); */
     /* border-bottom: 4px solid #b2b1b1; */
@@ -112,7 +112,7 @@
     /* padding: 0 1em 0 1em; */
     /* margin: 5em; */
     /* background-color: var(--tributeAfterBefore); */
-    background-color: #48ee32;
+    background-color: var(--colorNameSongs);
     border-radius: 0.5em;
     text-shadow: var(--textShadow);
     box-shadow: var(--boxShadow);
@@ -128,7 +128,7 @@
     font-size: 1.5rem;
     text-align: center;
     color: var(--colorText);
-    background-color: #48ee32;
+    background-color: var(--colorNameSongs);
     border-radius: 0.5em;
     border: 1px solid white;
     text-shadow: var(--textShadow);
@@ -153,13 +153,9 @@
     outline-width: 0;
   }
   
-  audio::-webkit-media-controls-enclosure {
-  
-    background-color: #fffffff5;
-    text-shadow: -1px -1.6px 0px #e4e0e7;
-    /* box-shadow: var(--boxShadow); */
-    border: 5px dotted var(--buttonBack);
-  }
+  audio::-webkit-media-controls-panel {background-color: #e6cdcd;}
+  audio::-webkit-media-controls-play-button {background-color: rgb(255, 102, 0);}
+  audio::-webkit-media-controls-volume-slider {background-color: #ccc;}
   
   
   
