@@ -19,7 +19,7 @@ export const CaverPage = () => {
   // const urlParse22 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTqMSBKbaIPUyfikTyHNpByUzLbxWxChMy96gx1a7WKMXFGNydi2ZTgotnDwgbhLjGkXuTlhGGgsKZ8/pub?output=csv";
   // ДДТ-2022 НОРМ
   // const urlParse21= "https://docs.google.com/spreadsheets/d/e/2PACX-1vS6iuzOmkC7RdMVy7xGA9nVlygwhtlxVTzkcr5yaJkAFm6CZadNibed7Wa2CNVmZa4L1ehka2mropLl/pub?output=csv";
-  const urlParse23 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQmx_iulHLoTMNZX0HiiLm5edammyks2qna2MG6LYWyuLoMDgtLA2AqQ8p7y6fNs-7Zsjt4tRibMjLO/pub?output=csv"
+  const urlParse23 = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRHOS2D0i7_zeqpPVYcIAzAqJJlcYoCAtC1PXPJhjFaiU_Xe6SyKsHyqqQnfEpcTQfmkhq2DcQEyymU/pub?output=csv"
   const urlLoc = location.pathname;
   
   const currUrl = urlLoc.includes('cavers20') ? urlParse20 : urlLoc.includes('cavers22') ? urlParse22 : urlLoc.includes('cavers23') ? urlParse23 : "";
